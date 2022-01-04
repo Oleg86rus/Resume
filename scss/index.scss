@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import "info";
+@import "blocks";
+@import "first_block";
+@import "second_block";
+@import "third_block";
+@import "contact";
+@import "variables";
+@import "fourth_block";
+@import "fifth_block";
+@import "list";
+
+
+body {
+    background-color: $backgroundColor;
+    color: $text_color;
+
+    font-size: 16px;
+    font-weight: normal;
+    font-family: $text_font_family;
+    a {
+        color: $text_link_color;
+        text-decoration: none;
+        &:hover {
+            text-decoration: underline;
+            color: $text_link_color_hover;
+        }
+        &:active {
+            color: $text_link_color_active;
+        }
+        &:visited {
+            color: $text_link_color_visited;
+        }
+    }
+}
+.container {
+    max-width: 1000px;
+    margin: auto;
+    padding-top: 30px;
+}
+

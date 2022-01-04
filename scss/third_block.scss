@@ -1,0 +1,7 @@
+@import "variables";
+.third_block {
+    background: $color_block_three;
+    table {
+        @include table
+    }
+}
