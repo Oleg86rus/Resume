@@ -9,6 +9,12 @@
   display: flex;
   margin-bottom: 20px;
 }
+.info img {
+  height: 248.22px;
+  width: 200px;
+  display: block;
+  margin: auto;
+}
 .info p {
   color: #86898f;
   margin: 0;
@@ -25,7 +31,6 @@
 
 .info-text {
   margin-left: 40px;
-  max-height: 248.22px;
   overflow: auto;
 }
 .info-text h4 {
@@ -127,6 +132,7 @@
 
 .fourth_block {
   background: #94c6aa;
+  word-spacing: 5px;
 }
 
 .fifth_block {
@@ -164,7 +170,7 @@ body a:visited {
 }
 
 .container {
-  max-width: 1000px;
+  max-width: 900px;
   margin: auto;
   padding-top: 30px;
 }
