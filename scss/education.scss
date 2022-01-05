@@ -1,4 +1,9 @@
 @import "variables";
 .first_block {
     background: $color_block_one;
+    @media (max-width: 767px) {
+        p {
+            text-align: center;
+        }
+    }
 }
