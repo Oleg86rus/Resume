@@ -1,15 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 @import "info";
 @import "blocks";
-@import "first_block";
-@import "second_block";
-@import "third_block";
+@import "education";
+@import "courses";
+@import "experiense";
 @import "contact";
 @import "variables";
-@import "fourth_block";
-@import "fifth_block";
+@import "hobby";
 @import "list";
-
+@import "skills";
 
 body {
     background-color: $backgroundColor;
@@ -37,5 +36,27 @@ body {
     max-width: 900px;
     margin: auto;
     padding-top: 30px;
+    @media (max-width: 580px){
+        max-width: 400px;
+        margin: auto;
+        padding: 0;
+    }
+    @media (min-width: 575.98px){
+        max-width: 540px;
+        margin: auto;
+        padding: 0;
+    }
+
+    @media (min-width: 767.98px){
+        max-width: 720px;
+    }
+
+    @media (min-width: 991.98px) {
+        max-width: 960px;
+    }
+
+    @media (min-width: 1199.98px){
+        max-width: 1140px;
+    }
 }
 
