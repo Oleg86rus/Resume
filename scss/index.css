@@ -64,6 +64,11 @@
 .first_block {
   background: #f2fea1;
 }
+@media (max-width: 767px) {
+  .first_block p {
+    text-align: center;
+  }
+}
 
 td:nth-child(2), td:nth-child(3) {
   color: #86898f;
