@@ -4,8 +4,6 @@
     background: $color_block_twoo;
     table {
         @include table;
-        .now {
-            color: red;
-        }
+
     }
 }

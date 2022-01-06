@@ -1,22 +1,28 @@
 @mixin table {
+
     width: 100%;
     margin-bottom: 10px;
     border-spacing: 0 15px;
     }
     td {
-
+        transition-duration: 0.3s;
+        &:first-child {
+            padding-left: 20px;
+        }
         &:nth-child(2),
         &:nth-child(3) {
             color: #86898f;
         }
         &:hover {
-            color: black;
-        }
+            color: #4a659f;
+       }
 
     }
     tr {
+        color: $text_color;
+        transition-duration: 1s;
         &:hover {
-            text-decoration: underline;
+            background-color: #bac5c1;
         }
         @media (max-width: 750px) {
             margin-bottom: 15px;

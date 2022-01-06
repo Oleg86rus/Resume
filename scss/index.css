@@ -46,12 +46,13 @@
 }
 
 .card {
-  padding: 0 20px;
+  transition: all 1s ease-in-out;
   margin-bottom: 20px;
   border-radius: 20px;
   overflow: auto;
 }
 .card h2 {
+  padding: 0 20px;
   margin-bottom: 10px;
 }
 @media (max-width: 767.98px) {
@@ -64,21 +65,37 @@
 .first_block {
   background: #f2fea1;
 }
+.first_block p {
+  padding: 0 20px;
+}
+.first_block p:hover {
+  color: #4a659f;
+}
 @media (max-width: 767px) {
   .first_block p {
     text-align: center;
   }
 }
 
+td {
+  transition-duration: 0.3s;
+}
+td:first-child {
+  padding-left: 20px;
+}
 td:nth-child(2), td:nth-child(3) {
   color: #86898f;
 }
 td:hover {
-  color: black;
+  color: #4a659f;
 }
 
+tr {
+  color: #0f141e;
+  transition-duration: 1s;
+}
 tr:hover {
-  text-decoration: underline;
+  background-color: #bac5c1;
 }
 @media (max-width: 750px) {
   tr {
@@ -93,9 +110,6 @@ tr:hover {
   width: 100%;
   margin-bottom: 10px;
   border-spacing: 0 15px;
-}
-.second_block table .now {
-  color: red;
 }
 
 .third_block {
@@ -150,6 +164,8 @@ tr:hover {
   margin-right: 0;
 }
 .contact .btn {
+  box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+  transition-duration: 0.8s;
   background: #414141;
   border-radius: 10px;
   padding: 15px 20px;
@@ -159,7 +175,7 @@ tr:hover {
   cursor: pointer;
 }
 .contact .btn:hover {
-  opacity: 0.9;
+  opacity: 0.8;
 }
 
 .fifth_block {
@@ -180,11 +196,14 @@ tr:hover {
 }
 
 .list {
-  padding: 0;
+  padding: 0 20px;
 }
 .list li {
   color: #86898f;
   margin-bottom: 10px;
+}
+.list li:hover {
+  color: #4a659f;
 }
 
 .fourth_block {

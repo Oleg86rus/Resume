@@ -1,8 +1,15 @@
 @import "variables";
 .first_block {
     background: $color_block_one;
+    p {
+        padding: 0 20px;
+        &:hover {
+            color: #4a659f;
+        }
+    }
     @media (max-width: 767px) {
         p {
+
             text-align: center;
         }
     }
