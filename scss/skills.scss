@@ -11,6 +11,10 @@
             @media (max-width: 767.98px){
                 margin: auto 10px;
             }
+
+        }
+        @media (max-width: 575px) {
+            justify-content: center;
         }
     }
 }

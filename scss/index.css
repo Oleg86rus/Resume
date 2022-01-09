@@ -229,6 +229,11 @@ tr:hover {
     margin: auto 10px;
   }
 }
+@media (max-width: 575px) {
+  .fourth_block ol {
+    justify-content: center;
+  }
+}
 
 body {
   background-color: #f1f1f1;
