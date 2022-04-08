@@ -68,17 +68,17 @@
   }
 }
 
-.education {
+.first_block {
   background: #f2fea1;
 }
-.education p {
+.first_block p {
   padding: 0 20px;
 }
-.education p:hover {
+.first_block p:hover {
   color: #4a659f;
 }
 @media (max-width: 767px) {
-  .education p {
+  .first_block p {
     text-align: center;
   }
 }
@@ -109,19 +109,19 @@ tr:hover {
   }
 }
 
-.courses {
+.second_block {
   background: #d4e69f;
 }
-.courses table {
+.second_block table {
   width: 100%;
   margin-bottom: 10px;
   border-spacing: 0 15px;
 }
 
-.experience {
+.third_block {
   background: #98c388;
 }
-.experience table {
+.third_block table {
   width: 100%;
   margin-bottom: 10px;
   border-spacing: 0 15px;
@@ -184,19 +184,19 @@ tr:hover {
   opacity: 0.8;
 }
 
-.hobby {
+.fifth_block {
   background: #c1f4e6;
 }
-.hobby ol {
+.fifth_block ol {
   display: flex;
   flex-wrap: wrap;
 }
-.hobby ol li {
+.fifth_block ol li {
   margin-right: 100px;
   display: block;
 }
 @media (max-width: 767.98px) {
-  .hobby ol li {
+  .fifth_block ol li {
     margin: auto;
   }
 }
@@ -212,25 +212,25 @@ tr:hover {
   color: #4a659f;
 }
 
-.skills {
+.fourth_block {
   background: #94c6aa;
 }
-.skills ol {
+.fourth_block ol {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 }
-.skills ol li {
+.fourth_block ol li {
   display: block;
   margin-right: 10px;
 }
 @media (max-width: 767.98px) {
-  .skills ol li {
+  .fourth_block ol li {
     margin: auto 10px;
   }
 }
 @media (max-width: 575px) {
-  .skills ol {
+  .fourth_block ol {
     justify-content: center;
   }
 }

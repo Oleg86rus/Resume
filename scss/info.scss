@@ -7,7 +7,6 @@
 }
 
 .info {
-    transition: all .5s ease-in-out;
     img {
         height: 248.22px;
         width: 200px;
@@ -42,27 +41,14 @@
     p {
         margin-bottom: 10px;
     }
-    .social_media {
-
-        .instagram, .telegram {
-            border-right: 1px solid #0f141e;
-            padding-right: 5px;
-            transition: all 0.5s;
-            -webkit-transition: all 0.5s;
-            -moz-transition: all 0.5s;
-            -ms-transition: all 0.5s;
-            -o-transition: all 0.5s;
-            &:hover{
-                color: pink;
-            }
+    .instagram {
+        &:hover{
+            color: pink;
         }
-        .telegram {
-            border: none;
-            padding-left: 5px;
-            &:hover{
-                color: #6e6ef3;
-            }
+        }
+    .telegram {
+        &:hover{
+            color: #6e6ef3;
         }
     }
-
 }

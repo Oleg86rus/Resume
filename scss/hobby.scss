@@ -1,13 +1,11 @@
 @import "variables";
-.hobby {
+.fifth_block {
     background: $color_block_fifth;
     ol {
         display: flex;
         flex-wrap: wrap;
-        justify-content: space-between;
 
-
-      li {
+        li {
             margin-right: 100px;
             display: block;
            @media (max-width: 767.98px){
