@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student card</title>
+    <link rel="stylesheet" href="./scss/index.css">
+</head>
+<body>
+    <div class="container">
+        <div class="info">
+        <img src="./img/avatar.jpg" alt="Фотография" class="avatar">
+        <div class="info-text">
+            <h1>Потоцкий Олег Викторович</h1>
+            <p>Мужчина, 30 лет.</p>
+            <p>03.01.2022 начал обучение на курсе у Владилена Минина "Javascript Junior Frontend Developer".</p>
+            <p>За плечами 5 лет командной разработки на должности инженера (с обязанностями бизнес-аналитика/продакт-менеджера).</p>
+            <h4>Мои социальные сети</h4>
+            <a href="https://www.instagram.com/oleg086rus/" target="_blank" class="instagram">Instagram</a> |
+            <a href="https://t.me/oleg086rus/" target="_blank" class="telegram">Telegram</a>
+            
+        </div>
+        </div>
+      
+        <div class="card first_block">
+            <h2>Образование</h2>
+            <p>Сургутский государственный университет</p>
+        </div>
+        <div class="card second_block">
+            <h2>Пройденные курсы</h2>
+            <table class="table"> 
+                <tr>
+                    <td>GeekBrains</td>
+                    <td>Профессиональная верстка</td>
+                </tr>
+                <tr>
+                    <td>GeekBrains</td>
+                    <td>Javascript</td>
+                </tr>
+                <tr>
+                    <td>GeekBrains</td>
+                    <td>Linux</td>
+                </tr>
+                <tr>
+                    <td>GeekBrains</td>
+                    <td>Mysql</td>
+                </tr>
+                <tr>
+                    <td>GeekBrains</td>
+                    <td>Базовый курс PHP</td>
+                </tr>
+                <tr>
+                    <td class="now">Владилен Минин</td>
+                    <td class="now">Javascript Junior Frontend Developer</td>
+                </tr>
+            </table>
+        </div>
+        <div class="card third_block">
+            <h2>Опыт работы</h2>
+            <table class="table"> 
+                <tr>
+                    <td>ООО "Газпром трансгаз Сургут"</td>
+                    <td>техник</td>
+                    <td>февраль - март 2014</td>
+                </tr>
+                <tr>
+                    <td>ООО "СПС Логистик"</td>
+                    <td>инженер - программист</td>
+                    <td>ноябрь 2016 - март 2018</td>
+                </tr>
+                <tr>
+                    <td>ООО "СПС Логистик"</td>
+                    <td>инженер АСУТП</td>
+                    <td>март 2018 - февраль 2019 </td>
+                </tr>
+                <tr>
+                    <td>ООО "Газпром энергосбыт Тюмень"</td>
+                    <td>инженер</td>
+                    <td>февраль 2019 - июль 2021</td>
+                </tr>
+                <tr>
+                    <td>ООО "Газпром энергосбыт Тюмень"</td>
+                    <td>инженер 2 категории</td>
+                    <td>июль 2021 - ноябрь 2021</td>
+                </tr>
+            </table>
+        </div>  
+        <div class="card fourth_block">
+            <h2>Ключевые навыки</h2>
+            <ol class="list">
+                <li>Работа в команде</li>
+                <li>Целеустремленность</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>MySQL</li>
+                <li>Git</li>
+                <li>Javascript</li>
+                <li>PHP</li>
+            </ol>
+        </div>
+        <div class="card fifth_block">
+            <h2>Мои хобби</h2>
+            <ol class="list">
+                <li>Сноуборд</li>
+                <li>Езда на автомобиле</li>
+                <li>Путешествия</li>
+            </ol>
+        </div>
+        <div class="contact">
+            <h2>Связаться со мной</h2>
+            <form action="#">
+                <div class="row">
+                    <div class="form-group">
+                        <label for="name">Ваше имя:</label>
+                        <input type="text" id="name" placeholder="Введите имя..." autocomplete="off" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Ваш email:</label>
+                        <input type="email" id="email" placeholder="Введите email..." autocomplete="off" required>
+                    </div>
+                </div>
+                
+                <div class="form-group">
+                    <label for="text">Ваше сообщение:</label>
+                    <textarea id="text" cols="15" rows="2" placeholder="Введите текст..." autocomplete="off" required></textarea>
+                </div>
+                <input type="submit" value="Связаться" class="btn">
+            </form>
+        </div>
+        
+    </div>
+</body>
+</html>
