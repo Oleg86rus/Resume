@@ -6,10 +6,14 @@ const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const ImageMinimizerPlugin = require("image-minimizer-webpack-plugin");
 const { extendDefaultPlugins } = require("svgo");
 
+const isProd = process.env.NODE_ENV === 'production';
+const isDev = !isProd;
+const fileName = ext => isDev ? `bundle.${ext}` : `bundle.[hash].${ext}`;
+
 module.exports = {
 	entry: './src/index.js',
 	output: {
-		filename: 'bundle.[hash].js',
+		filename: fileName('js'),
 		path: path.resolve(__dirname, 'dist'),
 	},
 	devServer: {
@@ -29,7 +33,7 @@ module.exports = {
 			],
 		}),
 		new MiniCssExtractPlugin({
-			filename: 'bundle.[hash].css'
+			filename: fileName('css')
 		})
 	],
 	module: {
